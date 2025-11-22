@@ -22,10 +22,10 @@ const Testimonials = ({testimonials}) => (
     )}
     </ul>
     <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
-      For more recommendations, please connect with me and checkout out my profile on 
-        <OutboundLink 
-        className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
-        href="https://www.linkedin.com/in/ruxandrafediuc/"
+      For more recommendations, please connect with me and checkout out my profile on
+        <OutboundLink
+        className="underline hover:opacity-75 transition-opacity duration-150 m-1"
+        href="https://www.linkedin.com/in/aliciafu/"
         target="_blank"
         rel="noopener noreferrer"
         >

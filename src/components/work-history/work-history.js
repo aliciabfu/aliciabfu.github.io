@@ -18,7 +18,7 @@ const WorkHistory = ({ history }) => {
             <span className="dot-bg w-14 h-14 absolute bg-line inline-flex rounded-full items-center justify-center">
               <span className="dot w-5 h-5 bg-back-light rounded-full" />
             </span>
-            <h4 className="subpixel-antialiased">{position}</h4> 
+            <h4 className="subpixel-antialiased">{position}</h4>
             {url ? (
               <h5 className="text-sm font-normal mb-1">
                 <OutboundLink
@@ -44,18 +44,18 @@ const WorkHistory = ({ history }) => {
         ))}
       </div>
       <div className="font-text text-sm pb-12 leading-normal whitespace-pre-line">
-        For more details about my past experience, please connect with me on 
-          <OutboundLink 
-          className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
-          href="https://www.linkedin.com/in/ruxandrafediuc/"
+        For more details about my past experience, please connect with me on
+          <OutboundLink
+          className="underline hover:opacity-75 transition-opacity duration-150 m-1"
+          href="https://www.linkedin.com/in/aliciafu/"
           target="_blank"
           rel="noopener noreferrer"
           >
             LinkedIn
-          </OutboundLink> 
-          or 
-          <a 
-            className="underline hover:opacity-75 transition-opacity duration-150 m-1" 
+          </OutboundLink>
+          or
+          <a
+            className="underline hover:opacity-75 transition-opacity duration-150 m-1"
             href="#contact"
             target="_blank"
             rel="noopener noreferrer"

@@ -5,14 +5,14 @@ const theme = `gh-inspired`
 
 module.exports = {
   siteMetadata: {
-    author: `Ruxandra Fediuc`,
-    description: `Ruxandra Fediuc - AWS Certified Solutions Architect, Certified Kubernetes Administrator, Legacy Director at Women Who Code Vancouver`,
-    keywords: 'Vancouver, software engineer, senior software engineer, solutions architect, software architect, CKA, Kubernetes, AWS, Amazon Web Services, GCP, Google Cloud Platform, Women Who Code',
+    author: `Alicia Fu`,
+    description: `Alicia Fu - Senior Paid Media Consultant`,
+    keywords: 'Vancouver, paid media, consultant, freelance, marketing, advertising, google ads, facebook ads, instagram ads, linkedin ads, tiktok ads, digital marketing',
     locale: `en`,
     showThemeLogo,
-    siteUrl: 'https://www.ruxandrafediuc.com',
-    title: `Ruxandra Fediuc - Senior Software Engineer & Solutions Architect`,
-    formspreeEndpoint: `https://formspree.io/f/mrgrpkyy`,
+    siteUrl: 'https://www.aliciafu.com',
+    title: `Alicia Fu - Senior Paid Media Consultant`,
+    formspreeEndpoint: `https://formspree.io/f/xeodabyj`,
   },
   plugins: [
     {
@@ -52,8 +52,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Ruxandra Fediuc - Senior Software Engineer & Solutions Architect`,
-        short_name: `Ruxandra Fediuc`,
+        name: `Alicia Fu - Senior Software Engineer & Solutions Architect`,
+        short_name: `Alicia Fu`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,
