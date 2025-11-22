@@ -1,39 +1,24 @@
 - profile:
-  initials: RF
-  name: Ruxandra Fediuc
+  initials: AB
+  name: Alicia Fu
   profession: |
-    Software Architect &
-    Senior Software Engineer
+    Senior Paid Media Consultant
   image: images/profile.jpg
   location: Vancouver, Canada
   remote: true
-  company: CTO.ai
+  company: -
   for_hire: true
-  focus: Cloud Computing, JavaScript, Developer Experience, Kubernetes
+  focus: TBD
   about: |
-    Ruxandra is one of the familiar faces around the Vancouver community, as past Chapter Director for Women Who Code Vancouver, speaker & member of Women Techmakers Vancouver, speaker and champion of #MoveTheDial movement, and having previously mentored with Lighthouse Labs, Ladies Learning Code, and Re:Coded.
+    Paragraph 1
 
-    Ruxandra worked as a Software Engineer & Architect with TELUS Digital for 3+ years, having had the chance to contribute to or lead multiple projects in the My TELUS and Home Solutions team. As part of the Architecture Support Team, she helped ensure continuous alignment to overall technical vision between the different teams and departments in TELUS.
-
-    Following her interest in developer experience, Ruxandra joined CTO.ai in August 2019 as Solutions Architect, where she worked with engineering teams and helped design infrastructure solutions and automate dev-ops workflows, involving multiple cloud providers and technologies.
-
-    In 2021, Ruxandra joined #paid as Software Architect, where she is helping build the world's first creator marketing platform that powers content creation and distribution for brands globally.
-
-    AWS Certified Solutions Architect (Associate) since December 2019, Ruxandra has also been focusing on expanding her Kubernetes knowledge and experience and has obtained her Certified Kubernetes Administrator (CKA) certification from The Linux Foundation in March 2021.
-
-    In her spare time, she is an avid foodie and instagrammer, and loves to read, play tennis, ski, or crochet cute animals.
+    Paragraph 2
   skills:
-    - JavaScript & JS Ecosystem
-    - Cloud Architecture
-    - Kubernetes
-    - Developer Experience
-    - CLI Tools
-    - CI/CD
+    - Skill 1
+    - Skill 2
   highlights:
-    - AWS Certified Solutions Architect
-    - Certified Kubernetes Administrator
-    - Google Cloud Platform Architect
-    - Startup & Corporate Experience
+    - Highlight 1
+    - Highlight 2
   budget:
     currency: $
     min: 5
