@@ -3,21 +3,57 @@
   institution: Google
   url: https://www.google.com
   urlName: See credential on Credly
-  image: images/google-analytics-certification.png
+  image: images/Google Analytics Certification.png
   
 - name: Google Ads Search Certification
   institution: Google
   url: https://www.google.com
   urlName: See credential on Credly
-  image: images/google-analytics-certification.png
+  image: images/Google Ads Search Certification.png
 
-  - name: Google Ads Display Certification
+- name: Google Ads Display Certification
   institution: Google
   url: https://www.google.com
   urlName: See credential on Credly
-  image: images/google-analytics-certification.png
+  image: images/Google Ads Display Certification.png
   
-  - name: Google Ads Video Certification
+- name: Google Ads Video Certification
+  institution: Google
+  url: https://www.google.com
+  urlName: See credential on Credly
+  image: images/Google Ads Video Certification.png
+
+- name: Google Ads AI-Powered Shopping Ads Certification
+  institution: Google
+  url: https://www.google.com
+  urlName: See credential on Credly
+  image: images/AI-Powered Shopping ads Certification.png
+
+- name: Google Ads AI-Powered Performance Ads Certification
+  institution: Google
+  url: https://www.google.com
+  urlName: See credential on Credly
+  image: images/AI-Powered Performance Ads Certification.png
+
+- name: Google Ads Grow Offline Sales Certification
+  institution: Google
+  url: https://www.google.com
+  urlName: See credential on Credly
+  image: images/Grow Offline Sales Certification.png
+
+- name: Google Ads Measurement Certification
+  institution: Google
+  url: https://www.google.com
+  urlName: See credential on Credly
+  image: images/Google Ads Measurement Certification.png
+
+- name: Google Ads Apps Certification
+  institution: Google
+  url: https://www.google.com
+  urlName: See credential on Credly
+  image: images/Google Ads Apps Certification.png
+
+- name: Google Ads Creative Certification
   institution: Google
   url: https://www.google.com
   urlName: See credential on Credly
