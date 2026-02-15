@@ -1,84 +1,124 @@
+# Google
 - name: Google Analytics Certification
-  period: October 2023
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Google Analytics Certification.png
 
 - name: Google Ads Search Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Google Ads Search Certification.png
 
 - name: Google Ads Display Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Google Ads Display Certification.png
 
 - name: Google Ads Video Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Google Ads Video Certification.png
 
 - name: Google Ads AI-Powered Shopping Ads Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/AI-Powered Shopping ads Certification.png
 
 - name: Google Ads AI-Powered Performance Ads Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/AI-Powered Performance Ads Certification.png
 
 - name: Google Ads Grow Offline Sales Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Grow Offline Sales Certification.png
 
 - name: Google Ads Measurement Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Google Ads Measurement Certification.png
 
 - name: Google Ads Apps Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
   image: images/Google Ads Apps Certification.png
 
 - name: Google Ads Creative Certification
   institution: Google
-  url: https://www.google.com
-  urlName: See credential on Credly
-  image: images/google-analytics-certification.png
+  image: images/Google Ads Creative Certification Badge.png
 
-- name: Microsoft Advertising Certification
-  institution: Microsoft
-  url: https://www.google.com
-  urlName: See credential on Credly
-  image: images/google-analytics-certification.png
+- name: GTM Fundamentals
+  institution: Google
+  image: images/GTM Fundamentals Certificate.png
 
+# LinkedIn
 - name: LinkedIn Certified Marketing Insider
   institution: LinkedIn
-  url: https://www.google.com
-  urlName: See credential on Credly
-  image: images/google-analytics-certification.png
+  url: https://verify.skilljar.com/c/xmasiyx47w8f
+  image: images/LinkedIn Certified Marketing Insider.png
 
-- name: Bachelor of Business Administration (BBA)
-  institution: Simon Fraser University
-  url: https://www.sfu.ca/students/admission/programs/a-z/b/business/overview.html
-  urlName: See program details
-  image: images/google-analytics-certification.png
+- name: LinkedIn Marketing Strategy Certification
+  institution: LinkedIn
+  url: https://verify.skilljar.com/c/ohj9mht6xdgn
+  image: images/LinkedIn Marketing Strategy Certification Badge.png
 
-- name: Business and Technical Writing
-  institution: Vancouver Community College
-  url: https://calendar.vcc.ca/continuing-studies/business-technical-writing-certificate/
-  urlName: See program details
-  image: images/google-analytics-certification.png
+- name: LinkedIn Advertising Fundamentals Certification
+  institution: LinkedIn
+  url: https://verify.skilljar.com/c/2nkgcogp3cju
+  image: images/LinkedIn Advertising Fundamentals Certification Badge.png
+
+- name: LinkedIn Content and Creative Design Certification
+  institution: LinkedIn
+  url: https://verify.skilljar.com/c/6dghpefdvsie
+  image: images/LinkedIn Content and Creative Design Certification Badge.png
+
+- name: LinkedIn Marketing Measurement Certification
+  institution: LinkedIn
+  url: https://verify.skilljar.com/c/6rrfv4y9n83v
+  image: images/LinkedIn Marketing Measurement Certification Badge.png
+
+# HubSpot
+- name: HubSpot Content Marketing
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/8fgbgsdz/en/1/alicia-fu/content-marketing
+  image: images/HubSpot Content Marketing Certified.png
+
+- name: HubSpot Digital Marketing
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/zc8hrbc4/en/1/alicia-fu/digital-marketing
+  image: images/HubSpot Digital Marketing Certified.png
+
+- name: HubSpot Email Marketing
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/5m6k1rcj/en/1/alicia-fu/email-marketing
+  image: images/HubSpot Email Marketing Certified.png
+
+- name: HubSpot Inbound Marketing
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/87smhmd8/en/1/alicia-fu/inbound-marketing
+  image: images/HubSpot Inbound Marketing Certified.png
+
+- name: HubSpot SEO
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/m01c2nbv/en/1/alicia-fu/seo
+  image: images/HubSpot SEO Certified.png
+
+- name: HubSpot Social Media
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/lnz81ccq/en/1/alicia-fu/social-media-marketing
+  image: images/HubSpot Social Media Certified.png
+
+- name: HubSpot Social Media Marketing II
+  institution: HubSpot
+  url: https://app.hubspot.com/academy/achievements/cv1n68bb/en/1/alicia-fu/social-media-marketing-certification-ii
+  image: images/HubSpot Social Media Marketing II Certified.png
+
+# Semrush
+- name: Semrush Certified
+  institution: Semrush
+  url: https://static.semrush.com/academy/certificates/990582c147/alicia-fu_25.pdf
+  image: images/Semrush Badge.png
+
+## TikTok
+#- name: TikTok 101
+#  institution: TikTok
+#  image: images/TikTok 101.png
+
+# # Education
+# - name: Bachelor of Business Administration (BBA)
+#   institution: Simon Fraser University
+
+# - name: Business and Technical Writing
+#   institution: Vancouver Community College

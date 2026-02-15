@@ -1,58 +1,123 @@
 import { graphql } from "gatsby"
 import React from "react"
-import CustomFonts from "../components/custom-fonts/custom-fonts"
+import Navbar from "../components/navbar/navbar"
+import Hero from "../components/hero/hero"
+import Services from "../components/services/services"
+import AboutSection from "../components/about-section/about-section"
+import TestimonialsSection from "../components/testimonials-section/testimonials-section"
+import Certifications from "../components/certifications/certifications"
+import ContactSection from "../components/contact-section/contact-section"
 import Footer from "../components/footer/footer"
-import Header from "../components/header/header"
-import MainContent from "../components/main-content/main-content"
-import Seo from "../components/seo/seo"
-import Sidebar from "../components/sidebar/sidebar"
-import StructuredData from "../components/structured-data/structured-data"
 import "../styles/style.css"
 
 const IndexPage = ({ data }) => {
-  const { history, profile, projects, educationCertifications, site, social, testimonials } = data
+  const { profile, services, social, testimonials, educationCertifications, site } = data
+  const hasTestimonials = testimonials.nodes.length > 0
 
   return (
-    <div className="antialiased bg-back leading-normal font-text text-front">
-      <Seo />
-      <StructuredData profile={profile} social={social.nodes} />
-      <CustomFonts />
+    <>
+      <Navbar
+        name={profile.name}
+        profession={profile.profession}
+        ctaText={profile.cta_text}
+        ctaUrl={profile.cta_url}
+        hasTestimonials={hasTestimonials}
+      />
 
-      <Header initials={profile.initials} />
+      <Hero
+        headline={profile.headline}
+        subheadline={profile.subheadline}
+        ctaText={profile.cta_text}
+        ctaUrl={profile.cta_url}
+      />
 
-      <div className="md:max-w-screen-sm lg:max-w-screen-xl mx-auto px-4 flex flex-wrap pt-4 my-8">
-        <Sidebar profile={profile} social={social.nodes} testimonials={testimonials.nodes} /> 
+      <Services services={services.nodes} />
 
-        <MainContent
-          history={history.nodes}
-          profile={profile}
-          educationCertifications={educationCertifications.nodes}
-          projects={projects.nodes}
-          testimonials={testimonials.nodes}
-          formspreeEndpoint={site.siteMetadata.formspreeEndpoint}
-        />
-      </div>
+      <AboutSection
+        about={profile.about}
+        skills={profile.skills}
+      />
+
+      <TestimonialsSection testimonials={testimonials.nodes} />
+
+      <Certifications certifications={educationCertifications.nodes} />
+
+      <ContactSection formspreeEndpoint={site.siteMetadata.formspreeEndpoint} />
 
       <Footer
         name={profile.name}
-        showThemeLogo={site.siteMetadata.showThemeLogo}
+        tagline={profile.tagline}
+        social={social.nodes}
+        hasTestimonials={hasTestimonials}
       />
-    </div>
+    </>
   )
 }
 
 export default IndexPage
 
+export const Head = ({ data }) => {
+  const { site } = data
+  const { title, description, keywords, siteUrl, author, locale } = site.siteMetadata
+
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    name: author,
+    description,
+    url: siteUrl,
+  }
+
+  return (
+    <>
+      <html lang={locale} />
+      <title>{title}</title>
+      <meta name="description" content={description} />
+      <meta name="keywords" content={keywords} />
+      <meta property="og:title" content={title} />
+      <meta property="og:description" content={description} />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content={siteUrl} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossOrigin="anonymous"
+      />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet"
+      />
+      <script type="application/ld+json">
+        {JSON.stringify(structuredData)}
+      </script>
+    </>
+  )
+}
+
 export const query = graphql`
   query {
     site {
       siteMetadata {
-        showThemeLogo
+        title
+        description
+        keywords
+        siteUrl
+        author
+        locale
         formspreeEndpoint
       }
     }
     profile: profileYaml {
       ...ProfileFragment
+    }
+    services: allServicesYaml {
+      nodes {
+        ...ServiceFragment
+      }
     }
     testimonials: allTestimonialsYaml {
       nodes {
@@ -62,16 +127,6 @@ export const query = graphql`
     social: allSocialYaml(filter: { url: { ne: null } }) {
       nodes {
         ...SocialFragment
-      }
-    }
-    history: allWorkHistoryYaml {
-      nodes {
-        ...WorkHistoryFragment
-      }
-    }
-    projects: allProjectsYaml {
-      nodes {
-        ...ProjectFragment
       }
     }
     educationCertifications: allEducationCertificationsYaml {

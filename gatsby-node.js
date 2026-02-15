@@ -1,3 +1,2 @@
-exports.onPreBootstrap = require("./src/gatsby/node/onPreBootstrap")
-exports.sourceNodes = require("./src/gatsby/node/sourceNodes")
+exports.createSchemaCustomization = require("./src/gatsby/node/createSchemaCustomization")
 exports.createPages = require("./src/gatsby/node/createPages")

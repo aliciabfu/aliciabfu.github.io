@@ -1,33 +1,23 @@
 import React from "react"
-import { OutboundLink } from "gatsby-plugin-google-gtag"
 import SocialIcon from "./social-icon"
-import { SocialType, arrayOf, shape } from "../../types"
 
 const SocialLinks = ({ social }) => {
   return (
-    <div className="pl-3">
-      {social.map(({ name, url }, i) => {
-        const colorsClass =
-          i % 2 === 0 ? "bg-front text-back-light" : "bg-back-light text-front"
-        return (
-          <OutboundLink
-            aria-label={name}
-            className={`inline-flex w-12 h-12 justify-center items-center rounded-full -ml-3 ${colorsClass} hover:shadow-lg transition-shadow duration-150`}
-            href={url}
-            key={name}
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <SocialIcon name={name} className="w-6 h-6" />
-          </OutboundLink>
-        )
-      })}
+    <div className="flex gap-3">
+      {social.map(({ name, url }) => (
+        <a
+          key={name}
+          aria-label={name}
+          className="flex h-9 w-9 items-center justify-center rounded-full bg-back/10 text-back/70 transition-colors hover:bg-back/20 hover:text-back"
+          href={url}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <SocialIcon name={name} className="h-4 w-4" />
+        </a>
+      ))}
     </div>
   )
-}
-
-SocialLinks.propTypes = {
-  social: arrayOf(shape(SocialType)),
 }
 
 export default SocialLinks

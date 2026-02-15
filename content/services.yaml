@@ -1,0 +1,23 @@
+- name: SEM
+  description: Strategic search engine marketing campaigns across Google Ads, Microsoft Ads, and more to drive qualified traffic and maximize ROI.
+  icon: search
+
+- name: SEO
+  description: Data-driven search engine optimization that builds long-term organic visibility and sustainable growth.
+  icon: trending
+
+- name: Social Media Advertising
+  description: Targeted paid social campaigns on Facebook, Instagram, LinkedIn, and TikTok that engage audiences and drive conversions.
+  icon: share
+
+- name: Conversion Rate Optimization
+  description: A/B testing, landing page optimization, and funnel analysis to turn more visitors into customers.
+  icon: chart
+
+- name: Demand Generation
+  description: Full-funnel demand gen strategies for B2B and B2C that build pipeline and accelerate revenue growth.
+  icon: zap
+
+- name: Branding & Strategy
+  description: Comprehensive digital marketing strategy and brand positioning to differentiate you in competitive markets.
+  icon: target

@@ -1,18 +1,20 @@
 - profile:
-  initials: AB
   name: Alicia Fu
-  profession: |
-    Senior Paid Media Consultant
+  profession: Digital Marketing Consultant
+  tagline: Results-driven digital marketing
+  headline: Grow your business with performance marketing that delivers results.
+  subheadline: Senior digital marketing consultant specializing in paid media, demand generation, and conversion optimization for ambitious brands.
+  company: Rudow & Star
+  founder: Alicia Fu
+  founder_title: Senior Digital Marketing Consultant
+  cta_text: Get in Touch
+  cta_url: "#contact"
   image: images/profile.jpg
   location: Vancouver, Canada
-  remote: true
-  company: Rudow & Star
-  for_hire: true
-  focus: TBD
   about: |
     Alicia is a results-oriented Senior Performance Marketing Consultant with over a decade of experience in paid media and demand generation across SaaS, ecommerce, and lead gen.
 
-    With a strong agency background, she is accustomed to working in a fast-paced and ever-changing industry. She has worked with some top brands including  Canon, NYU Stern, UBC, Bulletproof Coffee, The Little Potato Company, Roller Rabbit, Coast Appliances, Blanche Macdonald, BoardVitals, The Salvation Army, Fatburger, Douglas College, Sprott Shaw, VanArts, and more. 
+    With a strong agency background, she is accustomed to working in a fast-paced and ever-changing industry. She has worked with some top brands including Canon, NYU Stern, UBC, Bulletproof Coffee, The Little Potato Company, Roller Rabbit, Coast Appliances, Blanche Macdonald, BoardVitals, The Salvation Army, Fatburger, Douglas College, Sprott Shaw, VanArts, and more.
   skills:
     - SEM
     - SEO
@@ -20,13 +22,3 @@
     - CRO
     - Branding
     - Demand Generation
-  highlights:
-    - Paid Media Instructor
-    - Certified Strategist
-    - Agency and In-house Experience
-    - B2C and B2B Clients
-  budget:
-    currency: $
-    min: 5
-    max: 30
-    default: 10

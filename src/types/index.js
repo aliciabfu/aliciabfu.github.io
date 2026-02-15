@@ -1,7 +1,6 @@
-export { arrayOf, shape, string } from "prop-types"
-export { EducationCertificationsType } from "./education-certifications"
-export { ProfileType } from "./profile"
-export { ProjectType } from "./project"
-export { SocialType } from "./social"
-export { TestimonialType } from "./testimonial"
-export { WorkHistoryType } from "./work-history"
+// GraphQL fragment re-exports (fragments auto-register via import)
+export { query as profileQuery } from "./profile"
+export { query as serviceQuery } from "./service"
+export { query as socialQuery } from "./social"
+export { query as testimonialQuery } from "./testimonial"
+export { query as educationCertificationsQuery } from "./education-certifications"

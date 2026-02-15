@@ -1,5 +1,31 @@
 @tailwind base;
-
 @tailwind components;
-
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-back text-front antialiased;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 py-20 md:px-12 lg:px-24 xl:px-32;
+  }
+
+  .btn-primary {
+    @apply inline-block rounded-lg bg-lead px-6 py-3 font-semibold text-lead-text transition-all duration-200 hover:opacity-90 hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply inline-block rounded-lg border-2 border-front px-6 py-3 font-semibold text-front transition-all duration-200 hover:bg-front hover:text-back;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent;
+  }
+}
